@@ -63,7 +63,8 @@
               "browserTarget": "nathRobotShop-ui:build:production"
             },
             "development": {
-              "browserTarget": "nathRobotShop-ui:build:development"
+              "browserTarget": "nathRobotShop-ui:build:development",
+              "proxyConfig": "src/proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"
